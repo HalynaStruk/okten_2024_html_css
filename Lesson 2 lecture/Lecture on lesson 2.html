@@ -5,15 +5,22 @@
     <title>Lecture on lesson 2</title>
 
     <style>
+        p {
+            color: green;
+        }
         .redText {
             color: coral;
+        }
+        #gold {
+            color: gold;
         }
     </style>
 </head>
 <body>
+<!--По пріоритетності найважливіше йде вбудований стиль<p style =""></p>, тоді id, тоді class, тоді tag(p,h1...)-->
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 <p class="redText">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<p id="gold" class="redText" style="color: cornflowerblue">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 <p class="redText">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 
