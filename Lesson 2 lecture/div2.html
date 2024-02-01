@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*div{*/
+        /*    display: inline-block;*/
+        /*    margin: 30px;*/
+        /*}*/
+        .red{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transition: 6s;
+        }
+        .green{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            transition: 7s;
+        }
+        .yellow{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            transition: 5s;
+        }
+        .flex{
+            width: 100%;
+            height: 500px;
+            background-color: gray;
+            display: flex;
+            justify-content: space-around; /* вирівнює по горизонталі*/
+            align-items: center; /* вирівнює по вертикалі*/
+            flex-direction: row-reverse;
+            /*flex-wrap: wrap;*/
+        }
+        /*.align-self{*/
+        /*    align-self: flex-end;*/
+        /*}*/
+        .green:hover{
+            background-color: coral;
+            border-radius: 50%;
+            transition: 3s;
+        }
+        .red:hover{
+            transform: rotate(45deg);
+            transition: 3s;
+        }
+        .yellow:hover{
+            transform: scale(1.5);
+            transition: 500ms;
+        }
+        .pink{
+            color: gray;
+        }
+        .pink:hover{
+            color: pink;
+            transition: 2s;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="flex">
+<div class="red"></div>
+<div class="green align-self"></div>
+<div class="yellow"></div>
+<!--    <div class="yellow"></div>-->
+<!--    <div class="yellow"></div>-->
+<!--    <div class="yellow"></div>-->
+<!--    <div class="yellow"></div>-->
+<!--    <div class="yellow"></div>-->
+<!--    <div class="yellow"></div>-->
+
+</div>
+
+<p class="pink">Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
