@@ -28,17 +28,17 @@ header a{
 main{
     height: 90vh;
     background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
+    background-size: cover; /*Розтягування картинки на весь доступний простір*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 main p{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 main h1{
     font-size: 8em;
-    letter-spacing: 30px;
+    letter-spacing: 30px; /*міжбуквенний інтервал*/
     margin: 0;
 }
 .top-text{
