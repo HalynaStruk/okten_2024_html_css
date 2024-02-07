@@ -4,10 +4,77 @@
     <meta charset="UTF-8">
     <title>Home work</title>
 
+    <style>
 
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+        body{
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 3em;
+        }
+        header{
+           height: 23vh;
+           background: #8D8484;
+       }
+       main{
+           display: flex;
+       }
+       .content-1, .content-2, .content-3{
+           width: 75vw;
+           height: 18vh;
+       }
+       .content-1{
+           background: #776969;
+       }
+       .content-2{
+           background: #643030;
+       }
+       .content-3{
+           background: #441818;
+       }
+       .spam-1, .spam-2{
+           width: 25vw;
+           height: 27vh;
+       }
+       .spam-1{
+           background: #937575;
+       }
+       .spam-2{
+           background: #644C4C;
+       }
+       footer{
+           height: 23vh;
+           background: #BDBDBD;
+       }
+        .content-1, .content-2, .content-3, .spam-1, .spam-2{
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header, footer{
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
 </head>
 <body>
-
-
+    <header>Header</header>
+    <main>
+        <article>
+            <div class="content-1">Content-1</div>
+            <div class="content-2">Content-2</div>
+            <div class="content-3">Content-3</div>
+        </article>
+        <section>
+            <div class="spam-1">spam-1</div>
+            <div class="spam-2">spam-2</div>
+        </section>
+    </main>
+    <footer>footer</footer>
 </body>
 </html>
