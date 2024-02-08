@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Lesson 4 Instagram login page</title>
-
+    <style>
+    .mainPage{
+        /*width: 20vw;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form img{
+        width: 30vw;
+    }
+    .loginPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+    }
+    .loginFacebook{
+        display: flex;
+        align-items: center;
+    }
+    .register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+    }
+    </style>
 </head>
 <body>
-
+<div class="mainPage">
+    <div class="loginPage">
+        <form>
+            <img src="Instagram_logo.svg.png" alt="Instagram logo">
+            <input type="text">
+            <input type="password">
+            <input type="submit">
+        </form>
+        <p>АБО</p>
+        <div class="loginFacebook">
+            <img width="96" height="96" src="https://img.icons8.com/color/96/facebook.png" alt="facebook"/>
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Duk_UA%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%252219vhb4n1bj7trv10qeqav3udba23v1a66qe4bs1mwk7kb1q2sg4p%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D6dc8b71e-aedf-4ecb-8435-6094913e10c4%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252219vhb4n1bj7trv10qeqav3udba23v1a66qe4bs1mwk7kb1q2sg4p%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=uk_UA&pl_dbl=0">
+                Увійти через Facebook
+            </a>
+        </div>
+        <a href="https://www.instagram.com/accounts/password/reset/">
+            Забули пароль?
+        </a>
+    </div>
+    <div class="register">
+        <p>Не маєте облікового запису?</p>
+        <a href="https://www.instagram.com/accounts/emailsignup/">Зареєструйтеся</a>
+    </div>
+</div>
 
 </body>
 </html>
