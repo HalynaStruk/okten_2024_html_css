@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-
+    <style>
+        label{
+            display: block;
+        }
+        sup{
+            color: red;
+        }
+    </style>
 </head>
 <body>
+<form>
+    <label for="name">Enter your name</label>
+    <input type="text" id="name" placeholder="Name" required ><sup>*</sup>
 
+    <label for="password">Enter your password</label>
+    <input type="password" id="password" placeholder="qwerty123" required ><sup>*</sup>
+
+    <label for="age">Enter your age</label>
+    <input type="number" id="age" min="18" max="99">
+
+    <label>Sex</label>
+<!--    name має співпадати, якщо ми хочемо
+щоб була тільки з відповідей можлива-->
+    <label><input type="radio" name="gender" value="male">male</label>
+    <label><input type="radio" name="gender" value="female">female</label>
+
+    <label>
+        <input type="checkbox" name="news"> Subscribe to the news
+    </label>
+
+    <select>
+        <optgroup label="Group">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </optgroup>
+        <optgroup label="Group 2">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </optgroup>
+    </select>
+
+</form>
 
 </body>
 </html>
