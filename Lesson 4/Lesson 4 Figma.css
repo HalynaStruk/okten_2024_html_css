@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+
+/*-------------------- Page 1 ------------------------*/
+
+.part_1{
+    background-image: url("img/background 1.png");
+    width: 100vw;
+    height: 100vh;
+}
+.part_2, .part_3{
+    background-image: url("img/background 2.png");
+    width: 100vw;
+    height: 100vh;
+}
+.part_1, .part_2, .part_1_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part_1_section{
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+.part_1_section img, .part_1_content{
+    width: 35vw;
+    height: 38vh;
+}
+.part_1_content{
+    background: #FAF9F7;
+}
+.part_1_content h1{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    margin: 0;
+    /*font-size: 3vw;*/
+}
+.part_1_content p{
+    color: #000;
+    font-size: 25px;
+}
+.part_1_content button{
+    width: 27vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/*-------------------- Page 2 ------------------------*/
+
+iframe{
+    width: 62vw;
+    height: 52vh;
+}
+.part_2 h2{
+    width: 62vw;
+    margin-top: 110px;
+}
+
+/*-------------------- Page 3 ------------------------*/
+
+.part_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+}
+.part_3_content{
+    width: 30vw;
+    height: 70vh;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part_3_content img{
+    width: 27vw;
+    height: 21vh;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+.part_3_content h3{
+    margin: 0;
+}
+.info{
+    margin-top: 24px;
+    margin-bottom: 62px;
+}
+.part_3_content button{
+    width: 27vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
