@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Lesson 4 Instagram login page</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
     .mainPage{
-        /*font-size: 12px;*/
+        font-family: 'Arimo', sans-serif;
     }
     .mainPage, form, .loginPage{
         display: flex;
@@ -16,21 +18,22 @@
     a{
         text-decoration: none;
     }
-    form{
-
-    }
-    form img{
-        width: 175px;
-    }
     .loginPage{
         width:348px;
         height: 400px;
         margin: 4px 0 10px 0;
         border: 1px solid lightgray;
+        box-sizing: border-box;
+    }
+    form img{
+        width: 185px;
+        margin-bottom: 12px;
     }
     .loginFacebook{
         display: flex;
         align-items: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
     .register{
         width:348px;
@@ -53,6 +56,7 @@
     }
     input[type=text]{
         text-overflow: ellipsis;
+        margin-top: 24px;
     }
     input[type=submit]{
         width: 270px;
@@ -67,7 +71,35 @@
         font-weight: bold;
         font-size: 14px;
     }
-
+    .abo{
+        color: rgb(115, 115, 115);
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Arimo', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    .loginFacebook a{
+        color: #385185;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 8px;
+    }
+    .fogotPassword{
+        color: rgb(0, 55, 107);
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .register{
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .register a{
+        color: rgb(0, 149, 246);
+        font-weight: 600;
+        margin-left: 4px;
+    }
     </style>
 </head>
 <body>
@@ -79,20 +111,21 @@
             <input type="password" placeholder="Пароль">
             <input type="submit" value="Увійти">
         </form>
-        <p>АБО</p>
+        <p class="abo">АБО</p>
         <div class="loginFacebook">
-            <img width="96" height="96" src="https://img.icons8.com/color/96/facebook.png" alt="facebook"/>
+            <img width="20" height="20" src="https://img.icons8.com/fluency/48/facebook.png" alt="facebook"/>
             <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Duk_UA%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%252219vhb4n1bj7trv10qeqav3udba23v1a66qe4bs1mwk7kb1q2sg4p%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D6dc8b71e-aedf-4ecb-8435-6094913e10c4%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252219vhb4n1bj7trv10qeqav3udba23v1a66qe4bs1mwk7kb1q2sg4p%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=uk_UA&pl_dbl=0">
                 Увійти через Facebook
             </a>
         </div>
-        <a href="https://www.instagram.com/accounts/password/reset/">
+        <a class="fogotPassword" href="https://www.instagram.com/accounts/password/reset/">
             Забули пароль?
         </a>
     </div>
     <div class="register">
-        <p>Не маєте облікового запису?</p>
-        <a href="https://www.instagram.com/accounts/emailsignup/">Зареєструйтеся</a>
+        <p>Не маєте облікового запису?
+        <a href="https://www.instagram.com/accounts/emailsignup/"> Зареєструйтеся</a>
+        </p>
     </div>
 </div>
 
