@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    /* ПСЕВДО КЛАСИ позначаються чере : */
+
+    /* стилізуємо тільки парні елементи*/
+    /*ol>li:nth-child(even){*/
+    /*    color: pink;*/
+    /*}*/
+
+    /* стилізуємо тільки непарні елементи*/
+    /*ol>li:nth-child(odd){*/
+    /*    color: cornflowerblue;*/
+    /*}*/
+
+    /*ol>li:nth-child(3n+6)!* кожен 3-ій елемент починаючи з 6*!{*/
+    /*    color: green;*/
+    /*}*/
+
+    /*ol>li:first-child{*/
+    /*    color: coral;*/
+    /*}*/
+
+    /*ol>li:last-child{*/
+    /*    color: coral;*/
+    /*}*/
+
+    /* ПСЕВДО ЕЛЕМЕНТИ позначаються чере :: */
+
+    ol>li::first-letter{
+        color: coral;
+    }
+    p::first-line{
+        color: crimson;
+    }
+    ol>li::before{
+        content: "H---o";
+        color: green;
+    }
+    li{
+        list-style-type: none;
+    }
+    ol>li::after{
+        content: "!!!";
+        color: red;
+        font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+<!-- ol>li*15>lorem3 скорочена форма створення списку з текстом-->
+<ol>
+    <li>Lorem ipsum dolor.</li>
+    <li>Esse, quas sint!</li>
+    <li>Quisquam, reprehenderit repudiandae.</li>
+    <li>Eum, ipsam modi?</li>
+    <li>Itaque, magnam voluptatem!</li>
+    <li>Necessitatibus, reprehenderit veritatis?</li>
+    <li>Quis sequi, voluptate.</li>
+    <li>Doloremque, illum, officia?</li>
+    <li>Exercitationem, magni quas.</li>
+    <li>Aperiam, dolorem obcaecati?</li>
+    <li>Atque, tempore, ut!</li>
+    <li>Excepturi, quos, temporibus.</li>
+    <li>Accusantium, facere, non?</li>
+    <li>Est, hic, voluptatum.</li>
+    <li>Dicta obcaecati, totam?</li>
+</ol>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam amet asperiores consectetur cumque delectus dignissimos, distinctio ea eum fugiat fugit impedit inventore magnam minima nisi non quos saepe sequi voluptas voluptatibus! Accusantium aperiam asperiores assumenda commodi consequatur consequuntur debitis delectus dolore dolores, ea facere fuga fugit id magnam necessitatibus nobis non quae quaerat ratione recusandae rem reprehenderit tenetur totam. Ad animi autem illo illum incidunt ipsa, minima molestiae, molestias nam neque quas quia rerum temporibus voluptatibus voluptatum! Aperiam ducimus esse eveniet molestiae, sapiente sint. Adipisci animi commodi debitis dignissimos in laboriosam, libero molestiae quae ratione reprehenderit velit, veniam voluptatibus.</p>
+</body>
+</html>
