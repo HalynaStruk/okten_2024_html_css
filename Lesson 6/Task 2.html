@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+        header, article,section, footer{
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: darkgrey;
+            font-size: 2em;
+            border-radius: 4px;
+        }
+        body>div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1vh;
+        }
+        .main{
+            width: 100vw;
+            display: flex;
+            column-gap: 1vw;
+        }
+        .main>div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1vh;
+        }
+        .section{
+            display: flex;
+            column-gap: 1vw;
+        }
+        header{
+            width: 100vw;
+            height: 29vh;
+        }
+        article{
+            width: 74vw;
+            height: 35vh;
+        }
+        section{
+            width: 24vw;
+            height: 34vh;
+        }
+        footer{
+            width: 25vw;
+            height: 70vh;
+        }
+        @media screen and (max-width: 500px){
+        body{
+             margin: 3vh 6vw 3vh 6vw;
+        }
+        header, article,section, footer{
+            border-radius: 20px;
+        }
+        body>div{
+            row-gap: 3vh;
+        }
+        .main>div{
+            row-gap: 3vh;
+        }
+        .main{
+            flex-direction: column;
+            row-gap: 3vh;
+        }
+        .section{
+            column-gap: 5vw;
+        }
+        header{
+            width: 88vw;
+            height: 10vh;
+        }
+        article{
+            width: 88vw;
+            height: 55vh;
+        }
+        section{
+            width: 26vw;
+            height: 10vh;
+        }
+        footer{
+            width: 88vw;
+            height: 10vh;
+        }
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <header>A</header>
+        <div class="main">
+            <div>
+                <article>B</article>
+                <div class="section">
+                    <section>C</section>
+                    <section>D</section>
+                    <section>E</section>
+                </div>
+            </div>
+            <footer>F</footer>
+        </div>
+    </div>
+</body>
+</html>
