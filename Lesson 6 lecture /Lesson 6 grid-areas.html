@@ -34,8 +34,10 @@
             "header header header"
             "article-2 article-3 article-1"
             "footer footer footer";
-            grid-template-columns: 1fr 4fr 1fr;
-            grid-template-rows: 10vh 80vh 10vh;
+            /*grid-template-columns: 1fr 4fr 1fr;*/
+            /*grid-template-rows: 10vh 80vh 10vh;*/
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 1fr 80vh 100px;
         }
         .left, .center, .right, header, footer{
             background-color: #869da2;
