@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1vw;
+            font-size: 5vw;
+            color: darkgrey;
+        }
+        header{
+            width: 98vw;
+            height: 19vh;
+            background-color: lightgray;
+            border-radius: 4px;
+        }
+        article{
+            width: 75vw;
+            height: 80vh;
+            background-color: lightgray;
+            border-radius: 4px;
+        }
+        section{
+            width: 24vw;
+            height: 80vh;
+            background-color: lightgray;
+            border-radius: 4px;
+        }
+        header, article, section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            display: flex;
+            width: 98vw;
+            column-gap: 1vw;
+        }
+        @media screen and (max-width: 500px){
+            body{
+                row-gap: 6vw;
+                margin: 3vh 6vw 3vh 6vw;
+            }
+            header{
+                width: 88vw;
+                height: 10vh;
+                border-radius: 25px;
+            }
+            article{
+                width: 88vw;
+                height: 69vh;
+                border-radius: 25px;
+            }
+            section{
+                width: 88vw;
+                height: 10vh;
+                border-radius: 25px;
+            }
+            div{
+                flex-direction: column;
+                row-gap: 6vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>A</header>
+    <div>
+        <article>B</article>
+        <section>C</section>
+    </div>
+
+</body>
+</html>
