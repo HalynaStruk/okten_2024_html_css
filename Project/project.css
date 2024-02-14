@@ -126,6 +126,15 @@ main>img{
     width: 84vw;
     height: 65vh;
 }
+
 /*--------------------- section 3 --------------------*/
+
+.section_3>h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    line-height: 116.667%;
+}
+
 /*--------------------- section 4 --------------------*/
 /*--------------------- section 5 --------------------*/
