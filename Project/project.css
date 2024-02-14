@@ -254,6 +254,7 @@ main>img{
     background: rgba(30, 30, 32, 0.50);
     margin-top: 25vh;
     margin-bottom: 5vh;
+    box-sizing: border-box;
     padding-right: 8vw;
     padding-left: 8vw;
 }
@@ -276,6 +277,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
     padding-right: 8vw;
     padding-left: 8vw;
 }
