@@ -101,7 +101,28 @@ main>img{
 
 /*--------------------- section 2 --------------------*/
 
-#section_2 img{
+.section_2 div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+.section_2>div>h2{
+    width: 50vw;
+    color: #FFF;
+    font-size: 6vh;
+    line-height: 116.667% ;
+    margin-top: 0;
+}
+.section_2>div>p{
+    width: 40vw;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 2vh;
+    line-height: 185.714%;
+    letter-spacing: -0.657px;
+    margin-top: 0;
+}
+.section_2 img{
     width: 84vw;
     height: 65vh;
 }
