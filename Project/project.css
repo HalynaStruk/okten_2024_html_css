@@ -1,9 +1,105 @@
 body{
     margin: 0;
-}
-.section_1{
-    width: 100vw;
-    height: 80vh;
+    font-family: "Lato", sans-serif;
+    padding: 4vh 8vw 4vh 8vw;
+    box-sizing: border-box;
     background: #19191B;
-    background: radial-gradient(circle, rgba(53,53,80,1) 0%, rgba(25,25,27,1) 100%);
 }
+/*--------------------- section 1 --------------------*/
+
+#section_1{
+    /*width: 100vw;*/
+    /*height: 80vh;*/
+    /*background: #19191B;*/
+    /*background: radial-gradient(circle, rgba(53,53,80,1) 0%, rgba(25,25,27,1) 100%);*/
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header:first-child div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>div>img{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 4px;
+}
+header>div>span{
+    color: #FFF;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+a{
+    text-decoration: none;
+}
+nav>a:first-child{
+    color: #5454D4;
+    text-align: right;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+nav>a:nth-child(n+2){
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 1.2vw;
+}
+nav{
+    display: flex;
+    column-gap: 3vw;
+}
+header>button{
+    width: 11vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: -0.5px;
+    background: #19191B;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.4vh;
+}
+main>div>h1{
+    width: 40vw;
+    color: #FFF;
+    font-size: 8vh;
+    line-height: 105%;
+}
+main>div>p{
+    width: 37vw;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 2vh;
+    line-height: 185%;
+    letter-spacing: -0.657px;
+}
+main>div>button{
+    width: 14vw;
+    height: 5.6vh;
+    border-radius: 4px;
+    background-color: #5454D4;
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: 700;
+    margin-top: 5vh;
+}
+main>img{
+    width: 45vw;
+    height: 70vh;
+}
+
+/*--------------------- section 2 --------------------*/
+/*--------------------- section 3 --------------------*/
+/*--------------------- section 4 --------------------*/
+/*--------------------- section 5 --------------------*/
