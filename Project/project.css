@@ -197,5 +197,23 @@ main>img{
     color: #FFF;
     font-size: 6vh;
     font-weight: 800;
+    margin-bottom: 16vh;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio div{
+    width: 26vw;
+    height: 30vh;
+    border-radius: 14px;
+    background: #1E1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio div img{
+    width: 88%;
+    height: 88%;
 }
 /*--------------------- section 5 --------------------*/
