@@ -132,9 +132,39 @@ main>img{
 .section_3>h2{
     color: #FFF;
     text-align: center;
-    font-size: 60px;
+    font-size: 6vh;
     line-height: 116.667%;
+    margin-top: 15vh;
 }
-
+.container_1{
+    grid-area: container_1;
+}
+.container_2{
+    grid-area: container_2;
+}
+.container_3{
+    grid-area: container_3;
+}
+.container_4{
+    grid-area: container_4;
+}
+.container_5{
+    grid-area: container_5;
+}
+.container_6{
+    grid-area: container_6;
+}
+.grid{
+    display: grid;
+    grid-template-areas:
+    "container_1 container_2 container_3"
+    "container_4 container_5 container_6";
+    column-gap: 7vw;
+    row-gap: 12vh;
+}
+.container_1, .container_2, .container_3, .container_4, .container_5, .container_6{
+    display: grid;
+    text-align: center;
+}
 /*--------------------- section 4 --------------------*/
 /*--------------------- section 5 --------------------*/
