@@ -172,12 +172,15 @@ main>img{
     font-size: 3vh;
     font-weight: 600;
     letter-spacing: -0.75px;
+    margin-top: 2vh;
+    margin-bottom: 2.3vh;
 }
 .container_1>p, .container_2>p, .container_3>p, .container_4>p, .container_5>p, .container_6>p{
     color: rgba(255, 255, 255, 0.70);
     font-size: 2vh;
     line-height: 140%;
     letter-spacing: -0.5px;
+    margin: 0;
 }
 .position{
     width: 69px;
