@@ -166,5 +166,17 @@ main>img{
     display: grid;
     text-align: center;
 }
+.container_1>h4, .container_2>h4, .container_3>h4, .container_4>h4, .container_5>h4, .container_6>h4{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+}
+.container_1>p, .container_2>p, .container_3>p, .container_4>p, .container_5>p, .container_6>p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
 /*--------------------- section 4 --------------------*/
 /*--------------------- section 5 --------------------*/
