@@ -13,6 +13,7 @@ body{
     box-sizing: border-box;
     padding-right: 8vw;
     padding-left: 8vw;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 }
 header{
     display: flex;
@@ -108,6 +109,7 @@ main>img{
     box-sizing: border-box;
     padding-right: 8vw;
     padding-left: 8vw;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 }
 .section_2 div{
     display: flex;
@@ -143,6 +145,7 @@ main>img{
     box-sizing: border-box;
     padding-right: 8vw;
     padding-left: 8vw;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 }
 .section_3>h2{
     color: #FFF;
