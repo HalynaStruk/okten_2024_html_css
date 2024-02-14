@@ -178,5 +178,14 @@ main>img{
     line-height: 140%;
     letter-spacing: -0.5px;
 }
+.position{
+    position: relative;
+}
+.position>img{
+    position: sticky;
+    left: 10px;
+    /*left: 10vw;*/
+    /*top: 2vh;*/
+}
 /*--------------------- section 4 --------------------*/
 /*--------------------- section 5 --------------------*/
