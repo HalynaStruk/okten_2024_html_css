@@ -187,5 +187,15 @@ main>img{
     /*left: 10vw;*/
     /*top: 2vh;*/
 }
+.section_3{
+    margin-bottom: 20vh;
+}
+
 /*--------------------- section 4 --------------------*/
+
+.section_4>h2{
+    color: #FFF;
+    font-size: 6vh;
+    font-weight: 800;
+}
 /*--------------------- section 5 --------------------*/
