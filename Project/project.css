@@ -313,3 +313,6 @@ footer p{
     line-height: 237.5%;
     letter-spacing: -0.5px;
 }
+.media_phone{
+    display: none;
+}

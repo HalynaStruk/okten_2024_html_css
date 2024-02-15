@@ -133,4 +133,26 @@
         font-size: 2vh;
         font-weight: 400;
     }
+    footer{
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+    footer>div>img{
+        width: 7vw;
+        height: 7vw;
+        margin-right: 4px;
+    }
+    footer span{
+        font-size: 7vw;
+    }
+    footer div{
+        align-items: center;
+    }
+    .media_phone{
+        display: block;
+    }
+    footer p{
+        font-size: 2.6vh;
+        line-height: 155.556%;
+    }
 }
