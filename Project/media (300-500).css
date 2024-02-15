@@ -120,6 +120,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
+        margin-bottom: 32vh;
     }
     .contact_us h2{
         width: 88vw;
