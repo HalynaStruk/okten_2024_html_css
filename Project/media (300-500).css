@@ -59,4 +59,25 @@
         height: 27vh;
     }
 
+    /*--------------------- section 3 --------------------*/
+
+    .section_3>h2{
+        text-align: left;
+        font-size: 5.2vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .grid{
+        grid-template-areas:
+        "container_1 container_1 container_1"
+        "container_2 container_2 container_2"
+        "container_3 container_3 container_3"
+        "container_4 container_4 container_4"
+        "container_5 container_5 container_5"
+        "container_6 container_6 container_6";
+        row-gap: 17vh;
+    }
+
+
 }
