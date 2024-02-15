@@ -59,7 +59,7 @@
         height: 27vh;
     }
 
-    /*--------------------- section 3 --------------------*/
+/*--------------------- section 3 --------------------*/
 
     .section_3>h2{
         text-align: left;
@@ -95,13 +95,40 @@
         margin-bottom: 27vh;
     }
 
-    /*--------------------- section 4 --------------------*/
+/*--------------------- section 4 --------------------*/
 
+    .section_4>h2{
+        font-size: 5.2vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 10vh;
+    }
     .portfolio>div:nth-child(n+2){
         display: none;
     }
     .portfolio>div:first-child{
         width: 88vw;
         height: 35vh;
+    }
+
+/*--------------------- section 5 --------------------*/
+
+    .contact_us{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .contact_us h2{
+        width: 88vw;
+        font-size: 5.2vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .contact_us button{
+        width: 44vw;
+        font-size: 2vh;
+        font-weight: 400;
     }
 }
